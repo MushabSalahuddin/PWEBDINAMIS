@@ -23,7 +23,7 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item has-treeview menu-open">
+          <li class="nav-item has-treeview">
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
@@ -48,7 +48,7 @@
           </li>
 
           <!-- menu blog -->
-          <li class="nav-item has-treeview menu-open">
+          <li class="nav-item has-treeview">
             <a href="#" class="nav-link active">
               <i class="nav-icon fab fa-blogger-b"></i>
               <p>
@@ -58,13 +58,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('/tambah-blog')}}" class="nav-link">
                   <i class="fas fa-plus-square nav-icon"></i>
                   <p>Add Blog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('/data-blog')}}" class="nav-link">
                   <i class="fas fa-address-card nav-icon"></i>
                   <p>Data Blog</p>
                 </a>
