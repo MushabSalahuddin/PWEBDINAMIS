@@ -14,7 +14,7 @@
           <img src="{{asset('img/user.jpg')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Mush'ab</a>
+          <a href="{{url('biodata')}}" class="d-block"><h4><font color='red' face='sao'> Mush'ab Salahuddin </h4></font></a>
         </div>
       </div>
 
@@ -58,9 +58,10 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{url('/tambah-blog')}}" class="nav-link">
+                <router-link to='tambah-blog' class="nav-link">
                   <i class="fas fa-plus-square nav-icon"></i>
                   <p>Add Blog</p>
+                </router-link>
                 </a>
               </li>
               <li class="nav-item">

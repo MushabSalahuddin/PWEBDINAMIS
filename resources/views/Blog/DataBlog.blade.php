@@ -44,8 +44,43 @@
 
 
     <!-- Main content -->
-    <div class="content">
-        <h1 align='center'> DATA BLOG </h1>
+    <h1 align='center'> DATA BLOG </h1>
+      <center>
+          <table border=10 width=98% height=100 ALIGN='center'>
+                      <tr>
+                        <th> <center> Nama </center></th>
+                        <th style='width: 25%'> <center> Aksi </center></th>
+                      </tr> 
+                      @foreach ($varAngka as $isinya)
+                      <tr>
+                        <td>  {{$isinya}} </td>
+                        <td> 
+                          <center>
+                          <a href="{{$isinya}}">
+                            <i class="fas fa-eye red"> Lihat </i>
+                          </a>
+                        {{-- </td> --}}
+                        {{-- <td> --}}
+                          |
+                          <a href="{{$isinya}}">
+                            <i class="fas fa-pencil-alt green"> Edit </i>
+                          </a>
+                          |
+                        {{-- </td> --}}
+                        {{-- <td> --}}
+                          <a href="{{$isinya}}">
+                            <i class="fas fa-trash-alt"> Hapus </i>
+                          </a>
+                        </center>
+                        </td>
+                      </tr>
+                @endforeach
+              </table>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body">
+                    
+            </div>
       <!-- ISI HALAMAN -->
     </div>
 

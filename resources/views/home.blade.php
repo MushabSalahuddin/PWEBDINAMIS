@@ -8,7 +8,6 @@
   @include('Template.head')
 </head>
 
-
 <body class="hold-transition sidebar-mini">
 <div class="wrapper" id="app">
 
@@ -27,11 +26,11 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Starter Page</h1>
+            <h2 class="m-0 text-dark"><font face='sao'>Starter Page</font></h2>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#"><font face='sao'>Home</font></a></li>
               
             </ol>
           </div><!-- /.col -->
@@ -42,8 +41,11 @@
 
     <!-- Main content -->
     <div class="content">
+      <router-view> </router-view>
+    </div>
+    
       <table border=0 width=100% height=50 ALIGN='center'>
-<tr><td><H1><center>
+<tr><td><H1><font face='sao'><center>
 <SCRIPT>
 
 farbbibliothek = new Array();
@@ -183,7 +185,6 @@ document.write("<span id='a"+i+"' class='a"+i+"'>"+Buchstabe[i] + "</span>");
 
 }
 
-
 farbschrift();
 
 }
@@ -214,11 +215,11 @@ farben = farben.concat(farben);
 farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001));
 }
 setInterval("farbtauscher()",10000);
-text ="HALAMAN_UTAMA";//h
+text ="Welcome|My-Website";
 string2array(text);
 divserzeugen();
 //document.write(text);
-</SCRIPT></h1>
+</SCRIPT></font></h1>
 </table></center>
       <!-- ISI HALAMAN -->
     </div>
