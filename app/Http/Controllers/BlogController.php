@@ -15,6 +15,12 @@ class BlogController extends Controller
     {
         $varAngka = ["Mush'ab","Mamam","Yasin","Alfi"];
         return view('Blog.DataBlog', compact('varAngka'));
+
+        return view('Blog.TambahBlog', compact('varAngka'));
+
+        return view('Blog.Pengguna', compact('varAngka'));
+
+        return view('Blog.Kategori', compact('varAngka'));
     }
 
     /**
@@ -86,5 +92,20 @@ class BlogController extends Controller
     public function tambahblog($id)
     {
         return view('Blog.TambahBlog');
+    }
+
+    public function datablog($id)
+    {
+        return view('Blog.DataBlog');
+    }
+
+    public function pengguna($id)
+    {
+        return view('Blog.Pengguna');
+    }
+
+    public function kategori($id)
+    {
+        return view('Blog.Kategori');
     }
 }

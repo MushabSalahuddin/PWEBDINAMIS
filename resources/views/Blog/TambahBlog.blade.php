@@ -144,9 +144,6 @@
     </form>
     </table>
     <font color='red' face='sao'><blink><marquee>Umpat Lalu Cuyyy</blink></marquee></tr> </font>
-    {{-- <table border=0 width=100% ALIGN='center'> --}}
-    
-    {{-- </table> --}}
     
       <!-- ISI HALAMAN -->
     </div>

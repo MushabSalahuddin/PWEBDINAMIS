@@ -12,7 +12,7 @@
                   <th style='width: 25%'> <center> Aksi </center></th>
                     </tr>  
                         <tr>
-                            <td> Mush'ab </td>
+                            <td> Salahuddin </td>
                             <td> 
                             <center>
                                 <a href="#">

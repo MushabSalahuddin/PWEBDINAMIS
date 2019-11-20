@@ -40,9 +40,7 @@
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <div class="content">
-      <router-view> </router-view>
-    </div>
+    
     
       <table border=0 width=100% height=50 ALIGN='center'>
 <tr><td><H1><font face='sao'><center>
@@ -221,6 +219,9 @@ divserzeugen();
 //document.write(text);
 </SCRIPT></font></h1>
 </table></center>
+<div class="content">
+  <router-view> </router-view>
+</div>
       <!-- ISI HALAMAN -->
     </div>
 

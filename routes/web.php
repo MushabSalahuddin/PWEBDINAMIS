@@ -23,4 +23,16 @@ Route::get('/tambah-blog', function () {
     return view('Blog.TambahBlog');
 });
 
-Route::get('/data-blog', 'BlogController@index');
+Route::get('/datablog', function () {
+    return view('Blog.DataBlog');
+});
+
+Route::get('/pengguna', function () {
+    return view('Blog.Pengguna');
+});
+
+Route::get('/kategori', function () {
+    return view('Blog.Kategori');
+});
+
+// Route::get('/data-blog', 'BlogController@index');

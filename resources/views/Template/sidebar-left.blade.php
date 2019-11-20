@@ -23,36 +23,13 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Starter Pages
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link active">
-                  <i class="fas fa-check-circle nav-icon"></i>
-                  <p>Active Page</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="fas fa-times-circle nav-icon"></i>
-                  <p>Inactive Page</p>
-                </a>
-              </li>
-            </ul>
-          </li>
 
           <!-- menu blog -->
-          <li class="nav-item has-treeview">
+          <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
               <i class="nav-icon fab fa-blogger-b"></i>
               <p>
-                Blog Pages
+                Halaman Blog
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -60,14 +37,27 @@
               <li class="nav-item">
                 <router-link to='tambah-blog' class="nav-link">
                   <i class="fas fa-plus-square nav-icon"></i>
-                  <p>Add Blog</p>
+                  <p>Tambah Blog</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="data-blog" class="nav-link">
+                  <i class="fas fa-plus-square nav-icon"></i>
+                  <p>Data Blog</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to='kategori' class="nav-link">
+                  <i class="fas fa-plus-square nav-icon"></i>
+                  <p>Kategori</p>
                 </router-link>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{url('/data-blog')}}" class="nav-link">
-                  <i class="fas fa-address-card nav-icon"></i>
-                  <p>Data Blog</p>
+                <router-link to='pengguna' class="nav-link">
+                  <i class="fas fa-plus-square nav-icon"></i>
+                  <p>Pengguna</p>
+                </router-link>
                 </a>
               </li>
             </ul>
