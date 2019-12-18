@@ -219,10 +219,12 @@ divserzeugen();
 //document.write(text);
 </SCRIPT></font></h1>
 </table></center>
+
 <div class="content">
   <router-view> </router-view>
 </div>
-      <!-- ISI HALAMAN -->
+      
+<!-- ISI HALAMAN -->
     </div>
 
     <!-- /.content -->

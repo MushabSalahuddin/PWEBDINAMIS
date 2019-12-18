@@ -1,19 +1,22 @@
-<script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
-    }
-</script>
 <template>
-        <table border=10 width=98% height=100 ALIGN='center'>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header"><h3>Kategori Blog</h3></div>
+
+                    <div class="card-body">
+                        <button type="button" class="btn btn-success float-right"><i class ="fas fa-credit-card"> Tambah Kategori </i></button>
+                <br><br>
+                    <table border=5 width=100% height=100 ALIGN='center'>
              <tr>
-                <th> <center> Nama </center></th>
+                <th> <center> Kategori </center></th>
+                <th> <center> Jumlah Berita </center></th>
                   <th style='width: 25%'> <center> Aksi </center></th>
                     </tr>  
                         <tr>
-                            <td> Fakultas Teknik </td>
-                            <td> 
+                            <td>  </td>
+                            <td>  </td> 
                             <center>
                                 <a href="#">
                                     <i class="fas fa-eye red"> Lihat </i>
@@ -30,6 +33,17 @@
                     </td>
                 </tr>
         </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
-
+<script>
+    export default {
+        mounted() {
+            console.log('Component mounted.')
+        }
+    }
+</script>

@@ -1855,6 +1855,63 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Blog/HalamanLogin.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Blog/HalamanLogin.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -1872,6 +1929,48 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -1889,6 +1988,46 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -1906,6 +2045,47 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37241,56 +37421,212 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "table",
-    { attrs: { border: "10", width: "98%", height: "100", ALIGN: "center" } },
-    [
-      _c("tr", [
-        _c("th", [_c("center", [_vm._v(" Nama ")])], 1),
-        _vm._v(" "),
-        _c(
-          "th",
-          { staticStyle: { width: "25%" } },
-          [_c("center", [_vm._v(" Aksi ")])],
-          1
-        )
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "card" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "table",
+              {
+                attrs: {
+                  border: "5",
+                  width: "100%",
+                  height: "100",
+                  ALIGN: "center"
+                }
+              },
+              [
+                _c("tr", [
+                  _c("th", [_c("center", [_vm._v(" Nama ")])], 1),
+                  _vm._v(" "),
+                  _c(
+                    "th",
+                    { staticStyle: { width: "25%" } },
+                    [_c("center", [_vm._v(" Aksi ")])],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td"),
+                  _vm._v(" "),
+                  _c(
+                    "td",
+                    [
+                      _c("center", [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", { staticClass: "fas fa-eye red" }, [
+                            _vm._v(" Lihat ")
+                          ])
+                        ]),
+                        _vm._v(
+                          "\n                                |\n                            "
+                        ),
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", { staticClass: "fas fa-pencil-alt green" }, [
+                            _vm._v(" Edit ")
+                          ])
+                        ]),
+                        _vm._v(
+                          "\n                                |\n                            "
+                        ),
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", { staticClass: "fas fa-trash-alt" }, [
+                            _vm._v(" Hapus ")
+                          ])
+                        ])
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              ]
+            )
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header" }, [
+      _c("h3", [_vm._v("Data Blog")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Blog/HalamanLogin.vue?vue&type=template&id=614d79ef&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Blog/HalamanLogin.vue?vue&type=template&id=614d79ef& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "login-box" }, [
+      _c("div", { staticClass: "login-logo" }, [
+        _c("a", { attrs: { href: "../../index2.html" } }, [
+          _c("b", [_vm._v("LOGIN")])
+        ])
       ]),
       _vm._v(" "),
-      _c("tr", [
-        _c("td", [_vm._v(" Salahuddin ")]),
+      _c("div", { staticClass: "login-box-body" }, [
+        _c("p", { staticClass: "login-box-msg" }, [
+          _vm._v("Sign in to start your session")
+        ]),
         _vm._v(" "),
-        _c(
-          "td",
-          [
-            _c("center", [
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-eye red" }, [_vm._v(" Lihat ")])
-              ]),
-              _vm._v(
-                "\n                            |\n                        "
-              ),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-pencil-alt green" }, [
-                  _vm._v(" Edit ")
-                ])
-              ]),
-              _vm._v(
-                "\n                            |\n                        "
-              ),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-trash-alt" }, [
-                  _vm._v(" Hapus ")
+        _c("form", { attrs: { action: "../../index2.html", method: "post" } }, [
+          _c("div", { staticClass: "form-group has-feedback" }, [
+            _c("input", {
+              staticClass: "form-control",
+              attrs: { type: "email", placeholder: "Email" }
+            }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "glyphicon glyphicon-envelope form-control-feedback"
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-group has-feedback" }, [
+            _c("input", {
+              staticClass: "form-control",
+              attrs: { type: "password", placeholder: "Password" }
+            }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "glyphicon glyphicon-lock form-control-feedback"
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-xs-8" }, [
+              _c("div", { staticClass: "checkbox icheck" }, [
+                _c("label", [
+                  _c("input", { attrs: { type: "checkbox" } }),
+                  _vm._v(" Remember Me\n                    ")
                 ])
               ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-xs-4" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-primary btn-block btn-flat",
+                  attrs: { type: "submit" }
+                },
+                [_vm._v("Sign In")]
+              )
             ])
-          ],
-          1
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "social-auth-links text-center" }, [
+          _c("p", [_vm._v("- OR -")]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "btn btn-block btn-social btn-facebook btn-flat",
+              attrs: { href: "#" }
+            },
+            [
+              _c("i", { staticClass: "fa fa-facebook" }),
+              _vm._v(" Sign in using\n                Facebook")
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "btn btn-block btn-social btn-google btn-flat",
+              attrs: { href: "#" }
+            },
+            [
+              _c("i", { staticClass: "fa fa-google-plus" }),
+              _vm._v(" Sign in using\n                Google+")
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#" } }, [_vm._v("I forgot my password")]),
+        _c("br"),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "text-center", attrs: { href: "register.html" } },
+          [_vm._v("Register a new membership")]
         )
       ])
-    ]
-  )
-}
-var staticRenderFns = []
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -37312,56 +37648,107 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "table",
-    { attrs: { border: "10", width: "98%", height: "100", ALIGN: "center" } },
-    [
-      _c("tr", [
-        _c("th", [_c("center", [_vm._v(" Nama ")])], 1),
-        _vm._v(" "),
-        _c(
-          "th",
-          { staticStyle: { width: "25%" } },
-          [_c("center", [_vm._v(" Aksi ")])],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("tr", [
-        _c("td", [_vm._v(" Fakultas Teknik ")]),
-        _vm._v(" "),
-        _c(
-          "td",
-          [
-            _c("center", [
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-eye red" }, [_vm._v(" Lihat ")])
-              ]),
-              _vm._v(
-                "\n                            |\n                        "
-              ),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-pencil-alt green" }, [
-                  _vm._v(" Edit ")
-                ])
-              ]),
-              _vm._v(
-                "\n                            |\n                        "
-              ),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-trash-alt" }, [
-                  _vm._v(" Hapus ")
-                ])
-              ])
-            ])
-          ],
-          1
-        )
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "card" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _vm._m(1),
+            _vm._v(" "),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c(
+              "table",
+              {
+                attrs: {
+                  border: "5",
+                  width: "100%",
+                  height: "100",
+                  ALIGN: "center"
+                }
+              },
+              [
+                _c("tr", [
+                  _c("th", [_c("center", [_vm._v(" Kategori ")])], 1),
+                  _vm._v(" "),
+                  _c("th", [_c("center", [_vm._v(" Jumlah Berita ")])], 1),
+                  _vm._v(" "),
+                  _c(
+                    "th",
+                    { staticStyle: { width: "25%" } },
+                    [_c("center", [_vm._v(" Aksi ")])],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c(
+                  "tr",
+                  [
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("center", [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _c("i", { staticClass: "fas fa-eye red" }, [
+                          _vm._v(" Lihat ")
+                        ])
+                      ]),
+                      _vm._v(
+                        "\n                                |\n                            "
+                      ),
+                      _c("a", { attrs: { href: "#" } }, [
+                        _c("i", { staticClass: "fas fa-pencil-alt green" }, [
+                          _vm._v(" Edit ")
+                        ])
+                      ]),
+                      _vm._v(
+                        "\n                                |\n                            "
+                      ),
+                      _c("a", { attrs: { href: "#" } }, [
+                        _c("i", { staticClass: "fas fa-trash-alt" }, [
+                          _vm._v(" Hapus ")
+                        ])
+                      ])
+                    ])
+                  ],
+                  1
+                )
+              ]
+            )
+          ])
+        ])
       ])
-    ]
-  )
+    ])
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header" }, [
+      _c("h3", [_vm._v("Kategori Blog")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      { staticClass: "btn btn-success float-right", attrs: { type: "button" } },
+      [
+        _c("i", { staticClass: "fas fa-credit-card" }, [
+          _vm._v(" Tambah Kategori ")
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
@@ -37383,56 +37770,86 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "table",
-    { attrs: { border: "10", width: "98%", height: "100", ALIGN: "center" } },
-    [
-      _c("tr", [
-        _c("th", [_c("center", [_vm._v(" Nama ")])], 1),
-        _vm._v(" "),
-        _c(
-          "th",
-          { staticStyle: { width: "25%" } },
-          [_c("center", [_vm._v(" Aksi ")])],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("tr", [
-        _c("td", [_vm._v(" Informatika ")]),
-        _vm._v(" "),
-        _c(
-          "td",
-          [
-            _c("center", [
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-eye red" }, [_vm._v(" Lihat ")])
-              ]),
-              _vm._v(
-                "\n                            |\n                        "
-              ),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-pencil-alt green" }, [
-                  _vm._v(" Edit ")
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "card" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "table",
+              {
+                attrs: {
+                  border: "10",
+                  width: "98%",
+                  height: "100",
+                  ALIGN: "center"
+                }
+              },
+              [
+                _c("tr", [
+                  _c("th", [_c("center", [_vm._v(" Nama ")])], 1),
+                  _vm._v(" "),
+                  _c(
+                    "th",
+                    { staticStyle: { width: "25%" } },
+                    [_c("center", [_vm._v(" Aksi ")])],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [_vm._v(" Mush'ab Salahuddin ")]),
+                  _vm._v(" "),
+                  _c(
+                    "td",
+                    [
+                      _c("center", [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", { staticClass: "fas fa-eye red" }, [
+                            _vm._v(" Lihat ")
+                          ])
+                        ]),
+                        _vm._v(
+                          "\n                                |\n                            "
+                        ),
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", { staticClass: "fas fa-pencil-alt green" }, [
+                            _vm._v(" Edit ")
+                          ])
+                        ]),
+                        _vm._v(
+                          "\n                                |\n                            "
+                        ),
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", { staticClass: "fas fa-trash-alt" }, [
+                            _vm._v(" Hapus ")
+                          ])
+                        ])
+                      ])
+                    ],
+                    1
+                  )
                 ])
-              ]),
-              _vm._v(
-                "\n                            |\n                        "
-              ),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-trash-alt" }, [
-                  _vm._v(" Hapus ")
-                ])
-              ])
-            ])
-          ],
-          1
-        )
+              ]
+            )
+          ])
+        ])
       ])
-    ]
-  )
+    ])
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header" }, [
+      _c("h3", [_vm._v("Pengguna")])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -37454,56 +37871,105 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "table",
-    { attrs: { border: "10", width: "98%", height: "100", ALIGN: "center" } },
-    [
-      _c("tr", [
-        _c("th", [_c("center", [_vm._v(" Nama ")])], 1),
-        _vm._v(" "),
-        _c(
-          "th",
-          { staticStyle: { width: "25%" } },
-          [_c("center", [_vm._v(" Aksi ")])],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("tr", [
-        _c("td", [_vm._v(" Mush'ab ")]),
-        _vm._v(" "),
-        _c(
-          "td",
-          [
-            _c("center", [
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-eye red" }, [_vm._v(" Lihat ")])
-              ]),
-              _vm._v(
-                "\n                            |\n                        "
-              ),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-pencil-alt green" }, [
-                  _vm._v(" Edit ")
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "card" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _vm._m(1),
+            _vm._v(" "),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c(
+              "table",
+              {
+                attrs: {
+                  border: "5",
+                  width: "100%",
+                  height: "100",
+                  ALIGN: "center"
+                }
+              },
+              [
+                _c("tr", [
+                  _c("th", [_c("center", [_vm._v(" Nama ")])], 1),
+                  _vm._v(" "),
+                  _c(
+                    "th",
+                    { staticStyle: { width: "25%" } },
+                    [_c("center", [_vm._v(" Aksi ")])],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td"),
+                  _vm._v(" "),
+                  _c(
+                    "td",
+                    [
+                      _c("center", [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", { staticClass: "fas fa-eye red" }, [
+                            _vm._v(" Lihat ")
+                          ])
+                        ]),
+                        _vm._v(
+                          "\n                                |\n                            "
+                        ),
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", { staticClass: "fas fa-pencil-alt green" }, [
+                            _vm._v(" Edit ")
+                          ])
+                        ]),
+                        _vm._v(
+                          "\n                                |\n                            "
+                        ),
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", { staticClass: "fas fa-trash-alt" }, [
+                            _vm._v(" Hapus ")
+                          ])
+                        ])
+                      ])
+                    ],
+                    1
+                  )
                 ])
-              ]),
-              _vm._v(
-                "\n                            |\n                        "
-              ),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fas fa-trash-alt" }, [
-                  _vm._v(" Hapus ")
-                ])
-              ])
-            ])
-          ],
-          1
-        )
+              ]
+            )
+          ])
+        ])
       ])
-    ]
-  )
+    ])
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header" }, [
+      _c("h3", [_vm._v("Tambah Blog")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      { staticClass: "btn btn-success float-right", attrs: { type: "button" } },
+      [
+        _c("i", { staticClass: "fas fa-credit-card" }, [
+          _vm._v(" Tambah Blog ")
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
@@ -52602,6 +53068,9 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]);
 var routes = [{
+  path: '/halaman-login',
+  component: __webpack_require__(/*! ./components/Blog/HalamanLogin.vue */ "./resources/js/components/Blog/HalamanLogin.vue")["default"]
+}, {
   path: '/tambah-blog',
   component: __webpack_require__(/*! ./components/Blog/TambahBlog.vue */ "./resources/js/components/Blog/TambahBlog.vue")["default"]
 }, {
@@ -52750,6 +53219,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DataBlog_vue_vue_type_template_id_65bdfd04___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DataBlog_vue_vue_type_template_id_65bdfd04___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Blog/HalamanLogin.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/Blog/HalamanLogin.vue ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _HalamanLogin_vue_vue_type_template_id_614d79ef___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HalamanLogin.vue?vue&type=template&id=614d79ef& */ "./resources/js/components/Blog/HalamanLogin.vue?vue&type=template&id=614d79ef&");
+/* harmony import */ var _HalamanLogin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HalamanLogin.vue?vue&type=script&lang=js& */ "./resources/js/components/Blog/HalamanLogin.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _HalamanLogin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _HalamanLogin_vue_vue_type_template_id_614d79ef___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _HalamanLogin_vue_vue_type_template_id_614d79ef___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Blog/HalamanLogin.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Blog/HalamanLogin.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/Blog/HalamanLogin.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HalamanLogin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./HalamanLogin.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Blog/HalamanLogin.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HalamanLogin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Blog/HalamanLogin.vue?vue&type=template&id=614d79ef&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/Blog/HalamanLogin.vue?vue&type=template&id=614d79ef& ***!
+  \**************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HalamanLogin_vue_vue_type_template_id_614d79ef___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./HalamanLogin.vue?vue&type=template&id=614d79ef& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Blog/HalamanLogin.vue?vue&type=template&id=614d79ef&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HalamanLogin_vue_vue_type_template_id_614d79ef___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HalamanLogin_vue_vue_type_template_id_614d79ef___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

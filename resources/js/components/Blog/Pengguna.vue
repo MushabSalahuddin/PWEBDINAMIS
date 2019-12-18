@@ -1,18 +1,19 @@
-<script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
-    }
-</script>
 <template>
-        <table border=10 width=98% height=100 ALIGN='center'>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header"><h3>Pengguna</h3></div>
+
+                    <div class="card-body">
+                        
+                    <table border=10 width=98% height=100 ALIGN='center'>
              <tr>
                 <th> <center> Nama </center></th>
                   <th style='width: 25%'> <center> Aksi </center></th>
                     </tr>  
                         <tr>
-                            <td> Informatika </td>
+                            <td> Mush'ab Salahuddin </td>
                             <td> 
                             <center>
                                 <a href="#">
@@ -30,6 +31,17 @@
                     </td>
                 </tr>
         </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
-
+<script>
+    export default {
+        mounted() {
+            console.log('Component mounted.')
+        }
+    }
+</script>

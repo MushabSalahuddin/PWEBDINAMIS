@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 let routes = [
+    { path: '/halaman-login', component: require('./components/Blog/HalamanLogin.vue').default},
     { path: '/tambah-blog', component: require('./components/Blog/TambahBlog.vue').default},
     { path: '/data-blog', component: require('./components/Blog/DataBlog.vue').default},
     { path: '/kategori', component: require('./components/Blog/Kategori.vue').default},

@@ -35,6 +35,12 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
+                  <router-link to='halaman-login' class="nav-link">
+                    <i class="fas fa-plus-square nav-icon"></i>
+                    <p>Halaman Login</p>
+                  </router-link>
+                </li>
+              <li class="nav-item">
                 <router-link to='tambah-blog' class="nav-link">
                   <i class="fas fa-plus-square nav-icon"></i>
                   <p>Tambah Blog</p>
