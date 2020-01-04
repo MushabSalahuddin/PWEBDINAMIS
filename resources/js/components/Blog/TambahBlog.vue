@@ -10,11 +10,19 @@
                 <br><br>
                     <table border=5 width=100% height=100 ALIGN='center'>
              <tr>
-                <th> <center> Nama </center></th>
+                <th> <center> Kategori </center></th>
+                <th> <center> User </center></th>
+                <th> <center> Judul </center></th>
+                <th> <center> Isi </center></th>
+                <th> <center> Jbaca </center></th>
                   <th style='width: 25%'> <center> Aksi </center></th>
                     </tr>  
-                        <tr>
-                            <td>  </td>
+                        <tr v-for="items in tambah_blogs" :key="items.id">
+                            <td> {{items.kategori_id}} </td>
+                            <td> {{items.user_id}} </td>
+                            <td> {{items.judul}} </td>
+                            <td> {{items.isi}} </td>
+                            <td> {{items.jbaca}} </td>
                             <td>  
                             <center>
                                 <a href="#">

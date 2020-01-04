@@ -10,10 +10,12 @@
                     <table border=10 width=98% height=100 ALIGN='center'>
              <tr>
                 <th> <center> Nama </center></th>
+                <th> <center> Email </center></th>
                   <th style='width: 25%'> <center> Aksi </center></th>
                     </tr>  
-                        <tr>
-                            <td> Mush'ab Salahuddin </td>
+                        <tr  v-for="items in users" :key="items.id">
+                            <td> {{items.name}} </td>
+                            <td> {{items.email}} </td>
                             <td> 
                             <center>
                                 <a href="#">

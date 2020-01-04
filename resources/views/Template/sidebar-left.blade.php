@@ -3,7 +3,7 @@
     <a href="index3.html" class="brand-link">
       <img src="{{asset('img/logo-umb.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" 
            style="opacity: .8">
-      <span class="brand-text font-weight-light">UM Banjarmasin</span>
+      <span class="brand-text font-weight-light"><font color='gold' face='sao'>UM Banjarmasin</font></span>
     </a>
 
     <!-- Sidebar -->
