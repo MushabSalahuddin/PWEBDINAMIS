@@ -35,4 +35,6 @@ Route::get('/kategori', function () {
     return view('Blog.Kategori');
 });
 
-// Route::get('/data-blog', 'BlogController@index');
+Route::get('/data-blog', 'BlogController@index');
+
+Route::get('/tambah-blog', 'BlogController@tambahblog');

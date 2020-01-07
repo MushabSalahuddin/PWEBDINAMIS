@@ -29,11 +29,13 @@ class KategoriController extends Controller
     {
         $this->validate($request,[
             'namakategori' => 'required|string|max:30',
+            'jumlah' => 'required|integer'
         ]);
 
         return Kategori::create([
             'id' => $request['id'],
             'namakategori' => $request['namakategori'],
+            'jumlah' => $request['jumlah']
         ]);
     }
  

@@ -29,39 +29,39 @@
             <a href="#" class="nav-link active">
               <i class="nav-icon fab fa-blogger-b"></i>
               <p>
-                Halaman Blog
+                BLOG
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
                   <router-link to='halaman-login' class="nav-link">
-                    <i class="fas fa-plus-square nav-icon"></i>
-                    <p>Halaman Login</p>
+                    <i class="fas fa-sign-in-alt nav-icon green"></i>
+                    <p>Log In</p>
                   </router-link>
                 </li>
               <li class="nav-item">
                 <router-link to='tambah-blog' class="nav-link">
-                  <i class="fas fa-plus-square nav-icon"></i>
+                  <i class="fas fa-plus-square nav-icon red"></i>
                   <p>Tambah Blog</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="data-blog" class="nav-link">
-                  <i class="fas fa-plus-square nav-icon"></i>
+                  <i class="fas fa-folder nav-icon yellow"></i>
                   <p>Data Blog</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to='kategori' class="nav-link">
-                  <i class="fas fa-plus-square nav-icon"></i>
+                  <i class="fas fa-list nav-icon purple"></i>
                   <p>Kategori</p>
                 </router-link>
                 </a>
               </li>
               <li class="nav-item">
                 <router-link to='pengguna' class="nav-link">
-                  <i class="fas fa-plus-square nav-icon"></i>
+                  <i class="fas fa-user nav-icon blue"></i>
                   <p>Pengguna</p>
                 </router-link>
                 </a>

@@ -6,14 +6,16 @@
                     <div class="card-header">Data Kategori</div>
 
                     <div class="card-body">
-                        <button type="button" class="btn btn-success float-right" @click="modalBaru"><i class="fas fa-bars nav-icon"></i>Tambah Kategori
-                        </button>        
+                        <button type="button" class="btn btn-success float-right" @click="modalBaru">
+                            <i class="fas fa-bars nav-icon"></i>Tambah Kategori
+                        </button>   
+                        <br><br>     
                         <table class="table table-bordered">  
                             <thead>
                     <tr>
                             <th style="width :25%"><center>Id </center></th>
                             <th style="width :35%"><center>Kategori </center></th> 
-                            <th style="width :25%"><center>Jumlah </center></th>
+                            <th style="width :25%"><center>Jumlah Berita</center></th>
                             <th style="width :25%"><center>Aksi </center></th> 
                     </tr>
                     </thead>
@@ -25,12 +27,13 @@
                         
                          <td>
                             <center>
-                            <a href="#">
-                            <i class="fas fa-edit pink"> &nbsp; |  &nbsp; </i>
-                            </a>
-                            <a href="#">
-                            <i class="fas fa-trash teal"></i>
-                            </a>
+                                <a href="#">
+                                    <i class="fas fa-pencil-alt green"> Edit </i>
+                                </a>
+                                    |
+                                <a href="#">
+                                    <i class="fas fa-trash-alt red"> Hapus </i>
+                                </a>
                             </center>
                         </td>
                     </tr>
@@ -70,6 +73,18 @@
                   :class="{ 'is-invalid': form.errors.has('namakategori') }"
                 />
                 <has-error :form="form" field="namakategori"></has-error>
+              </div>
+
+              <div class="form-group">
+                <input
+                  v-model="form.jumlah"
+                  type="text"
+                  name="jumlah"
+                  placeholder="Jumlah"
+                  class="form-control"
+                  :class="{ 'is-invalid': form.errors.has('jumlah') }"
+                />
+                <has-error :form="form" field="jumlah"></has-error>
               </div>
             </div>
 

@@ -24,3 +24,7 @@ Route::apiResources([
 Route::apiResources([
     'tambah_blog' => 'API\TambahBlogController',
 ]);
+
+Route::apiResources([
+    'user' => 'API\UserController',
+]);

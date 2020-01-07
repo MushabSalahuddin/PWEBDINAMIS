@@ -4,9 +4,9 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\TambahBlog;
+use App\User;
 
-class TambahBlogController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +15,7 @@ class TambahBlogController extends Controller
      */
     public function index()
     {
-        return TambahBlog::all();
+        return User::all();
     }
 
     /**
@@ -27,21 +27,17 @@ class TambahBlogController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-            'kategori_id' => 'required|integer',
-            'user_id' => 'required|integer',
-            'judul' => 'required|string|max:30',
-            'isi' => 'required|string|max:30',
-            'jbaca' => 'required|integer'
+            'name' => 'required|string|max:30',
+            'email' => 'required|string|max:30',
+            'password' => 'required|string|max:30'
         ]);
 
-        return TambahBlog::create([
-            'id' => $request['id'],
-            'kategori_id' => $request['kategori_id'],
-            'user_id' => $request['user_id'],
-            'judul' => $request['judul'],
-            'isi' => $request['isi'],
-            'jbaca' => $request['jbaca']
+        return User::create([
+            'name' => $request['name'],
+            'email' => $request['email'],
+            'password' => $request['password']
         ]);
+
     }
 
     /**
@@ -75,6 +71,6 @@ class TambahBlogController extends Controller
      */
     public function destroy($id)
     {
-        
+        //
     }
 }

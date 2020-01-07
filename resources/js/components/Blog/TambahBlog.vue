@@ -14,7 +14,7 @@
                 <th> <center> User </center></th>
                 <th> <center> Judul </center></th>
                 <th> <center> Isi </center></th>
-                <th> <center> Jbaca </center></th>
+                <th> <center> Jumlah baca </center></th>
                   <th style='width: 25%'> <center> Aksi </center></th>
                     </tr>  
                         <tr v-for="items in tambah_blogs" :key="items.id">
